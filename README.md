@@ -1,10 +1,10 @@
 # Common Longitudinal ICU Format (CLIF)
 
-Official Website to the CLIF Consortium - [CLIF Consortium](https://kaveric.github.io/clif-consortium/about.html)
+Official Website to the CLIF Consortium - [CLIF Consortium](https://clif-consortium.github.io/website/)
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-![Maturity Level](https://img.shields.io/badge/maturity-Beta-yellow)
+[![Maturity Level](https://img.shields.io/badge/maturity-Beta-yellow)](maturity.md)
 
 
 ## Introduction
