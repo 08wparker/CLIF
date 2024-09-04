@@ -4,8 +4,6 @@ Official Website to the CLIF Consortium - [CLIF Consortium](https://clif-consort
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-[![Maturity Level](https://img.shields.io/badge/maturity-Beta-yellow)](maturity.md)
-
 
 ## Introduction
 Multicenter critical care research often relies on sharing sensitive patient data across sites, requiring complex data use agreements (DUAs) and yielding redundant work to account for diverse data infrastructures. Common data models (CDMs) like the Observational Medical Outcomes Partnership can allow for standardized analysis scripts, mitigating these challenges but requiring advanced data engineering skills and risking a loss of crucial granular clinical information. To overcome these barriers, we present the Common Longitudinal ICU Format (CLIF), designed specifically for observational studies of critically ill patients across multiple centres. Through CLIF, we aim to streamline data organization into a longitudinal format and establish standard vocabularies to facilitate standardized analysis scripts and improve data readability for researchers and clinicians.
@@ -14,7 +12,7 @@ The CLIF consortium, comprising critical care researchers from eight US academic
 
 This README file contains detailed instructions on how to set up your heathcare system's EHR data into the Relational CLIF format. The repository also provides a detailed data dictionary for each table in the R-CLIF database, along with the required limited vocabulary defined by clinical experts in the consortium. 
 
-## Relational CLIF
+## CLIF Entity-relationship model
 
 In an iterative and ongoing fashion, we developed CLIF's schema, contents, and limited clinical vocabularies through collective discussion to consensus. The consortium's broad use case of clinical research on critically ill patients focused the decision-making on care processes, outcomes, and granular measures of clinical physiology. The primary development outcomes were (1) an initial schema, (2) a limited vocabulary set for important clinical variables, and (3)"proof of concept" datasets to demonstrate usability and interoperability.
 
